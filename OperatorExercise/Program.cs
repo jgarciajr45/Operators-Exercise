@@ -4,7 +4,17 @@
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello, World!");
+
+            int a = 17;
+            int b = 4;
+
+            int sumAdd = a + b;
+            int sumSub = a - b;
+            int sumMult = a * b;
+            int quotient = a / b;
+            int remainder = a % b;
+
+            Console.WriteLine($"{a}/{b} is {quotient} remainder {remainder}.");
         }
     }
 }
